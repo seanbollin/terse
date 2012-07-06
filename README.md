@@ -1,3 +1,5 @@
+Terse:
+
 A framework for enabling per-page javascript on multi-page web applications. [![Build Status](https://secure.travis-ci.org/breerly/terse.png?branch=master)](http://travis-ci.org/breerly/terse)
 
 ===
