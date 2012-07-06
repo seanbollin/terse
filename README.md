@@ -35,17 +35,8 @@ Ruby on Rails:
 
 ### To run the tests:
 
-Unix/Macintosh:
-
-    make test
-
-### To build the documentation:
-
-    make doc
-
-### To read the documentation:
-
-    man doc/node.1
+    npm install
+    npm test
 
 Resources for Newcomers
 ---
