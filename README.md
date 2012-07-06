@@ -25,7 +25,7 @@ PHP:
 
 Ruby on Rails:
 
-    def inde
+    def index
         @terseJson = {:controller => "purchases", :action => "edit", :params => "showPastOrders=false"}
 
         respond_to do |format|
