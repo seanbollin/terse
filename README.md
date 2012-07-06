@@ -25,8 +25,8 @@ PHP:
 
 Ruby on Rails:
 
-    def index
-        @terseJson = {"controller" => "purchases", "action" => "edit", "params" => "showPastOrders=false"}
+    def inde
+        @terseJson = {:controller => "purchases", :action => "edit", :params => "showPastOrders=false"}
 
         respond_to do |format|
             format.html # index.html.erb
