@@ -29,10 +29,6 @@ Unix/Macintosh:
 
     make test
 
-Windows:
-
-    vcbuild.bat test
-
 ### To build the documentation:
 
     make doc
