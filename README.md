@@ -1,19 +1,25 @@
-[![Build Status](https://secure.travis-ci.org/breerly/terse.png?branch=master)](http://travis-ci.org/breerly/terse)
+A framework for enabling per-page javascript on multi-page web applications. [![Build Status](https://secure.travis-ci.org/breerly/terse.png?branch=master)](http://travis-ci.org/breerly/terse)
 
-Evented I/O for V8 javascript. [![Build Status](https://secure.travis-ci.org/joyent/node.png)](http://travis-ci.org/joyent/node)
 ===
 
-### To build:
+### Usage:
 
-Unix/Macintosh (requires python 2.6 or 2.7):
+Include terse.js in your HTML:
 
-    ./configure
-    make
-    make install
+    <script type="text/javascript" src="/js/terse.js"></script>
 
-Windows:
 
-    vcbuild.bat
+Place this fragment of code on the bottom of each page:
+
+    <script type="text/javascript">
+        terse.go("<?php terseJson ?>");
+    </script>
+
+Provide an object with a controller, action, and params: 
+
+PHP:
+
+    $terseJson = ["controller": "purchases", "action": "edit", "params": "showPastOrders=false" ];
 
 ### To run the tests:
 
@@ -35,14 +41,6 @@ Windows:
 
 Resources for Newcomers
 ---
-  - [The Wiki](https://github.com/joyent/node/wiki)
+  - [Ender](http://ender.no.de/)
   - [nodejs.org](http://nodejs.org/)
   - [how to install node.js and npm (node package manager)](http://joyeur.com/2010/12/10/installing-node-and-npm/)
-  - [list of modules](https://github.com/joyent/node/wiki/modules)
-  - [searching the npm registry](http://search.npmjs.org/)
-  - [list of companies and projects using node](https://github.com/joyent/node/wiki/Projects,-Applications,-and-Companies-Using-Node)
-  - [node.js mailing list](http://groups.google.com/group/nodejs)
-  - irc chatroom, [#node.js on freenode.net](http://webchat.freenode.net?channels=node.js&uio=d4)
-  - [community](https://github.com/joyent/node/wiki/Community)
-  - [contributing](https://github.com/joyent/node/wiki/Contributing)
-  - [big list of all the helpful wiki pages](https://github.com/joyent/node/wiki/_pages)
