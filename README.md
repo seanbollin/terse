@@ -4,6 +4,13 @@ A framework for enabling per-page javascript on multi-page web applications. [![
 
 ===
 
+Resources for Newcomers
+---
+  - [Ender](http://ender.no.de/)
+  - [nodejs.org](http://nodejs.org/)
+  - [how to install node.js and npm (node package manager)](http://joyeur.com/2010/12/10/installing-node-and-npm/)
+
+
 ### Usage:
 
 Include terse.js in your HTML:
